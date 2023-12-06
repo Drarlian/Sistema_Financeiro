@@ -1,0 +1,76 @@
+/* Segunda div */
+.selects .selects-geral{
+    display: flex; /* Faz a mágica do item ocupar apenas o próprio espaço */
+    justify-content: center;
+    /* gap: 3rem; */
+    /* margin: auto;  Posicionando a div no meio da tela */
+    /* border-radius: 5px; */
+    font-size: large;
+    /* background-color: green; */
+    /* padding: 10px; */
+    font-weight: bold;
+  }
+  
+  .selects .selects-geral form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 940px;
+    height: 90px;
+    /* gap: 3rem; */
+    /* margin: 5px; */
+    background-color: white;
+    border-radius: 5px;
+    margin: 15px;
+    box-shadow: rgb(204, 204, 204) 0px 0px 5px;
+    /* flex-wrap: wrap;  */
+    /* ^ Permite que os elementos se movam para a próxima linha quando não há espaço suficiente */
+  }
+  
+  .selects-opcao{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* justify-content: end; */
+    /* align-items: end; */
+    text-align: left;
+    margin: 10px;
+    /* margin-left: 40px; */
+    padding: 5px;
+    padding-left: 18px;
+    box-sizing: border-box; /* Evita que o padding afete a largura total do elemento */
+  }
+  
+  .selects-opcao p{
+    margin-bottom: 3px;
+  }
+  
+  .selects-botao {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .selects input{
+    border-radius: 5px;
+    padding: 3px;
+    border: 2px solid black;
+  }
+
+  .selects select{
+    border-radius: 5px;
+    padding: 3px;
+    border: 2px solid black;
+  }
+  
+  .selects button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave na mudança de cor de fundo */
+  }
+  
+  /* Estilo ao passar o mouse por cima */
+  .selects button:hover {
+    background-color: gray;
+  }
