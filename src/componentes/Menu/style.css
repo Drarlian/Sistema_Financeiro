@@ -27,6 +27,12 @@
     /* ^ Permite que os elementos se movam para a próxima linha quando não há espaço suficiente */
   
   }
+
+  @media only screen and (max-width: 1000px){
+    .valores .geral-header{
+      width: 100%;
+    }
+  }
   
   .valores-header{
     display: flex;

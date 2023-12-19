@@ -1,12 +1,9 @@
-import { useState } from 'react';
 import './App.css';
 import Menu from './componentes/Menu';
 import Formulario from './componentes/Formulario';
 import Painel from './componentes/Paneil';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>

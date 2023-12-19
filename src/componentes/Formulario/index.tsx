@@ -56,7 +56,6 @@ const Formulario = () => {
             </div>
 
             <div className='selects-opcao'>
-              {/* <div><p>adsasdas</p></div> */}
               <div className='selects-botao'><button type='submit' onClick={enviaDados}>Adicionar</button></div>
             </div>
           </form>

@@ -26,6 +26,12 @@
     /* flex-wrap: wrap;  */
     /* ^ Permite que os elementos se movam para a próxima linha quando não há espaço suficiente */
   }
+
+  /* @media only screen and (max-width: 600px){
+    .selects .selects-geral form{
+      width: 100%;
+    }
+  } */
   
   .selects-opcao{
     display: flex;

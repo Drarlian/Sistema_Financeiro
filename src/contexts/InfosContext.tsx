@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import react, { ReactNode } from "react";
+import { ReactNode } from "react";
 
 export type Valores = {
     receita: number,
@@ -38,7 +38,7 @@ export function InfosProvider({children}: TypeChildrenNode) {
 
     function modificaValores(categoria: string, valor: number) {
         let categoriasPositivas = ['Salário'];
-        let categoriasNegativas = ['Aluguel', 'Alimentação'];
+        // let categoriasNegativas = ['Aluguel', 'Alimentação'];
 
         let rec: number;
         let des: number;
