@@ -1,67 +1,107 @@
 /* Primeira div */
 .valores{
-    display: flex; /* Faz a mágica do item ocupar apenas o próprio espaço */
-    justify-content: center;
-    /* gap: 3rem; */
-    /* margin: auto;  Posicionando a div no meio da tela */
-    margin-top: -40px;  /* Fazendo a div sobrepor a div de cima */
-    /* border-radius: 5px; */
-    font-size: large;
-    /* background-color: green; */
-    /* padding: 10px; */
-  }
+  display: flex; /* Faz a mágica do item ocupar apenas o próprio espaço */
+  justify-content: center;
+  /* gap: 3rem; */
+  /* margin: auto;  Posicionando a div no meio da tela */
+  margin-top: -40px;  /* Fazendo a div sobrepor a div de cima */
+  /* border-radius: 5px; */
+  font-size: large;
+  /* background-color: green; */
+  /* padding: 10px; */
+}
   
-  .valores .geral-header{
-    display: flex;
-    justify-content: center;
-    /* gap: 3rem; */
-    /* margin: 5px; */
-    background-color: white;
-    /* padding: 0.5rem; MEXER AQUI PARA FICAR RESPONSIVO */
-    border-radius: 5px;
-    margin: 15px;
-    width: 940px;
-    height: 90px;
-    box-shadow: rgb(204, 204, 204) 0px 0px 5px;
-    /* flex-wrap: wrap;  */
-    /* ^ Permite que os elementos se movam para a próxima linha quando não há espaço suficiente */
-  
+.valores .geral-header{
+  display: flex;
+  justify-content: center;
+  /* gap: 3rem; */
+  /* margin: 5px; */
+  background-color: white;
+  /* padding: 0.5rem; MEXER AQUI PARA FICAR RESPONSIVO */
+  border-radius: 5px;
+  margin: 15px;
+  width: 90vw;
+  height: 90px;
+  box-shadow: rgb(204, 204, 204) 0px 0px 5px;
+  /* flex-wrap: wrap;  */
+  /* ^ Permite que os elementos se movam para a próxima linha quando não há espaço suficiente */
+
+}
+
+.valores-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  /* margin-left: 40px; */
+  padding: 10px;
+  flex: 1;
+  box-sizing: border-box; /* Evita que o padding afete a largura total do elemento */
+}
+
+.menu-header{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  /* flex: 1 1 0%; */
+  /* align-items: center; */
+  /* -webkit-box-align: center; */
+}
+
+.menu-header div{
+  margin: 5px;
+  padding: 10px;
+  box-sizing: border-box;
   }
 
-  @media only screen and (max-width: 1000px){
-    .valores .geral-header{
-      width: 100%;
-    }
+@media (max-width: 800px){
+  .valores{
+    /* background-color: orange; */
+    max-width: 100vw;
+    width: 100vw;
   }
-  
-  .valores-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 10px;
-    /* margin-left: 40px; */
-    padding: 10px;
+
+  .valores .geral-header{
+    max-width: 100vw;
+    width: 100vw;
+    margin: 0px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
     flex: 1;
-    box-sizing: border-box; /* Evita que o padding afete a largura total do elemento */
+    /* background-color: pink; */
+    /* border: solid; */
   }
-  
+
   .menu-header{
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
-    padding: 10px;
+    /* background-color: green; */
+
     box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    /* flex: 1 1 0%; */
-    /* align-items: center; */
-    /* -webkit-box-align: center; */
+
+    margin: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0px;
   }
-  
+
   .menu-header div{
-    margin: 5px;
-    padding: 10px;
-    box-sizing: border-box;
+    /* background-color: aqua; */
+    
+    margin: 0px;
+    padding: 0px;
   }
+
+  .valores-header{
+    /* background-color: red; */
+
+    margin: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0px;
+  }
+}

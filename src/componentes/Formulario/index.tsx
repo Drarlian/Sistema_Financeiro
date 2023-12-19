@@ -55,7 +55,7 @@ const Formulario = () => {
               <div><input type='number' ref={refValor}></input></div>
             </div>
 
-            <div className='selects-opcao'>
+            <div className='selects-opcao botao-adicionar'>
               <div className='selects-botao'><button type='submit' onClick={enviaDados}>Adicionar</button></div>
             </div>
           </form>

@@ -10,9 +10,7 @@ const Menu = () => {
       <div className='valores'>
         <div className='geral-header'>
           <div className='menu-header'>
-            <div><p>{'<-'}</p></div>
-            <div><p>Conteúdo</p></div>
-            <div><p>{'->'}</p></div>
+            <div><p>{'<-'} &nbsp; Cont &nbsp; {'->'}</p></div>
           </div>
           <div className='valores-header'>
             <p style={{color: "gray", fontWeight: "bold"}}>Receitas</p>
